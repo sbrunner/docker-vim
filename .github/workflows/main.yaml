@@ -21,3 +21,11 @@ jobs:
 
       - name: Checks
         run: c2cciutils-checks
+
+      - name: Build
+        run: docker build --tag=sbrunner/vim .
+
+      - run: docker login --username=sbrunner --password=${{ secret.DOCKER_PASSWORD }}
+
+      - name: Publish
+        run: c2cciutils-publish

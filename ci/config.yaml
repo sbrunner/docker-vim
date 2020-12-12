@@ -4,3 +4,8 @@ checks:
     backport.yaml: False
     clean.yaml: False
     audit.yaml: False
+publish:
+  pypi:
+    packages: []
+  images:
+    - name: sbrunner/vim

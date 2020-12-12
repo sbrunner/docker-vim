@@ -4,6 +4,7 @@ checks:
     backport.yaml: False
     clean.yaml: False
     audit.yaml: False
+    codeql.yaml: False
 publish:
   pypi:
     packages: []

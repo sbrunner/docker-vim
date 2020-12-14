@@ -7,5 +7,6 @@ checks:
 publish:
   pypi:
     packages: []
-  images:
-    - name: sbrunner/vim
+  docker:
+    images:
+      - name: sbrunner/vim

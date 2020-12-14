@@ -10,3 +10,6 @@ publish:
   docker:
     images:
       - name: sbrunner/vim
+    repository:
+      github:
+        versions: []

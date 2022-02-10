@@ -1,11 +1,13 @@
 VI Docker image
 
 Build:
+
 ```
 docker build --tag=sbrunner/vi .
 ```
 
 Push:
+
 ```
 docker push sbrunner/vi
 ```

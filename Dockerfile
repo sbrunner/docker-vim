@@ -1,10 +1,10 @@
 FROM debian
 
-RUN apt update && \
+RUN --mount=type=cache,target=/var/lib/apt/lists \
+    --mount=type=cache,target=/var/cache,sharing=locked \
+    apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt install --yes --no-install-recommends \
-        git net-tools iputils-ping screen vim vim-editorconfig vim-addon-manager tree && \
-    apt-get clean && \
-    rm --force --recursive /var/lib/apt/lists/*
+        git net-tools iputils-ping screen vim vim-editorconfig vim-addon-manager tree
 
 RUN vim-addon-manager --system-wide install editorconfig && \
     echo 'set hlsearch  " Highlight search' > /root/.vimrc && \

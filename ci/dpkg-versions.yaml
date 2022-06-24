@@ -1,3 +1,5 @@
+# See repository list: https://repology.org/repositories/statistics
+
 sbrunner/vim:master:
   debian_11/adduser: '3.118'
   debian_11/apt: 2.2.4

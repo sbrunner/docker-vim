@@ -4,6 +4,20 @@
   schedule: 'before 1am on Monday',
   separateMajorMinor: true,
   lockFileMaintenance: { enabled: true, automerge: true },
+  regexManagers: [
+    {
+      fileMatch: ['^ci/dpkg-versions.*.yaml$'],
+      matchStrings: ['(?<depName>.*): (?<currentValue>.*)'],
+      datasourceTemplate: 'repology',
+      versioningTemplate: 'ubuntu',
+    },
+    {
+      fileMatch: ['^ci/debian-versions.*.yaml$'],
+      matchStrings: ['(?<depName>.*): (?<currentValue>.*)'],
+      datasourceTemplate: 'repology',
+      versioningTemplate: 'debian',
+    },
+  ],
   packageRules: [
     /** Automerge the patch, the minor and the dev dependency */
     {

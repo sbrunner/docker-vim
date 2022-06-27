@@ -9,13 +9,7 @@
       fileMatch: ['^ci/dpkg-versions.*.yaml$'],
       matchStrings: ["(?<depName>.*): '?(?<currentValue>.*)'?"],
       datasourceTemplate: 'repology',
-      versioningTemplate: 'ubuntu',
-    },
-    {
-      fileMatch: ['^ci/debian-versions.*.yaml$'],
-      matchStrings: ["(?<depName>.*): '?(?<currentValue>.*)'?"],
-      datasourceTemplate: 'repology',
-      versioningTemplate: 'debian',
+      versioningTemplate: 'loose',
     },
   ],
   packageRules: [

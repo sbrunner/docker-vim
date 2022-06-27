@@ -7,13 +7,13 @@
   regexManagers: [
     {
       fileMatch: ['^ci/dpkg-versions.*.yaml$'],
-      matchStrings: ['(?<depName>.*): (?<currentValue>.*)'],
+      matchStrings: ["(?<depName>.*): '?(?<currentValue>.*)'?"],
       datasourceTemplate: 'repology',
       versioningTemplate: 'ubuntu',
     },
     {
       fileMatch: ['^ci/debian-versions.*.yaml$'],
-      matchStrings: ['(?<depName>.*): (?<currentValue>.*)'],
+      matchStrings: ["(?<depName>.*): '?(?<currentValue>.*)'?"],
       datasourceTemplate: 'repology',
       versioningTemplate: 'debian',
     },

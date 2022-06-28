@@ -30,9 +30,9 @@
       automerge: true,
     },
     {
-      matchDataSources: ['repology'],
+      matchDatasources: ['repology'],
       groupName: 'OS packages',
       automerge: true,
-    }
+    },
   ],
 }

@@ -29,5 +29,10 @@
       groupName: 'all minor versions',
       automerge: true,
     },
+    {
+      matchDataSources: ['repology'],
+      groupName: 'OS packages',
+      automerge: true,
+    }
   ],
 }

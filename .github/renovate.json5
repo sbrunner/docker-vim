@@ -32,6 +32,8 @@
     {
       matchDatasources: ['repology'],
       groupName: 'OS packages ({{packageFile}})',
+      additionalBranchPrefix: 'pkg-',
+      commitMessageSuffix: '(OS Package)',
       automerge: true,
     },
   ],

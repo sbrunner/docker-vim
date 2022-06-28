@@ -31,9 +31,8 @@
     },
     {
       matchDatasources: ['repology'],
-      groupName: 'OS packages ({{packageFile}})',
-      additionalBranchPrefix: 'pkg-',
-      commitMessageSuffix: '(OS Package)',
+      matchPaths: ['ci/dpkg-versions.yaml'],
+      groupName: 'OS packages',
       automerge: true,
     },
   ],

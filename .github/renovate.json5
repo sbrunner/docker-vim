@@ -6,7 +6,7 @@
   lockFileMaintenance: { enabled: true, automerge: true },
   regexManagers: [
     {
-      fileMatch: ['^ci/dpkg-versions.*.yaml$'],
+      fileMatch: ['^ci/dpkg-versions-backport.yaml$'],
       matchStrings: ["(?<depName>.*): '?(?<currentValue>.*)'?"],
       datasourceTemplate: 'repology',
       versioningTemplate: 'loose',
@@ -31,7 +31,6 @@
     },
     {
       matchDatasources: ['repology'],
-      matchPaths: ['ci/dpkg-versions.yaml'],
       groupName: 'OS packages',
       automerge: true,
     },

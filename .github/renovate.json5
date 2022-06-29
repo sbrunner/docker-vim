@@ -7,7 +7,7 @@
   regexManagers: [
     {
       fileMatch: ['^ci/dpkg-versions.yaml$'],
-      matchStrings: [" *(?<depName>[^'\\s]+): '?(?<currentValue>[^'\\s\\\\]+)'?"],
+      matchStrings: [" *(?<depName>[^'\\s]+): '?(?<currentValue>[^'\\s/]+)'?"],
       datasourceTemplate: 'repology',
       versioningTemplate: 'loose',
     },

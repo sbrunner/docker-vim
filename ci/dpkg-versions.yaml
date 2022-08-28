@@ -6,7 +6,7 @@ sbrunner/vim:master:
   debian_11/base-files: 11.1+deb11u3
   debian_11/base-passwd: 3.5.51
   debian_11/bash: 5.1-2+deb11u1
-  debian_11/bsdutils: 1:2.36.1-8+deb11u1
+  debian_11/bsdutils: 2.36.1-8+deb11u1
   debian_11/ca-certificates: '20210119'
   debian_11/coreutils: 8.32-4+b1
   debian_11/dash: 0.5.11+git20200708+dd9ef66-5

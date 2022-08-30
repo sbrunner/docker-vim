@@ -21,7 +21,7 @@ sbrunner/vim:master:
   debian_11/debian-archive-keyring: 2021.1.1
   debian_11/debianutils: 4.11.2
   debian_11/diffutils: 1:3.7-5
-  debian_11/dpkg: 1.20.10
+  debian_11/dpkg: 1.20.11
   debian_11/e2fsprogs: 1.46.2-2
   debian_11/editorconfig-core: 0.12.1-1.1
   debian_11/expat: 2.2.10-2+deb11u3
@@ -30,7 +30,7 @@ sbrunner/vim:master:
   debian_11/gcc-9: 9.3.0-22
   debian_11/gdbm: 1.19-2
   debian_11/git: 1:2.30.2-1
-  debian_11/glibc: 2.31-13+deb11u3
+  debian_11/glibc: 2.31-9
   debian_11/gmp: 2:6.2.1+dfsg-1+deb11u1
   debian_11/gnupg2: 2.2.27-2+deb11u2
   debian_11/gnutls28: 3.7.1-5+deb11u2

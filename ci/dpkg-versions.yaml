@@ -24,7 +24,7 @@ sbrunner/vim:latest:
   debian_11/dpkg: 1.20.12
   debian_11/e2fsprogs: 1.46.2-2
   debian_11/editorconfig-core: 0.12.1-1.1
-  debian_11/expat: 2.2.10-2+deb11u3
+  debian_11/expat: 2.2.10-2+deb11u4
   debian_11/findutils: 4.8.0-1
   debian_11/gcc-10: 10.2.1-6
   debian_11/gcc-9: 9.3.0-22

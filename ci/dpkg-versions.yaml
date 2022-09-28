@@ -1,6 +1,6 @@
 # See repository list: https://repology.org/repositories/statistics
 
-sbrunner/vim:master:
+sbrunner/vim:latest:
   debian_11/acl: 2.2.53-10
   debian_11/adduser: '3.118'
   debian_11/apt: 2.2.4

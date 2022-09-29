@@ -39,5 +39,12 @@
       groupName: 'OS packages',
       automerge: true,
     },
+    /** Update dpkg versions every day */
+    {
+      matchPaths: ['^ci/dpkg-versions.yaml$'],
+      schedule: ['after 1am'],
+      groupName: 'dpkg',
+      automerge: true,
+    },
   ],
 }

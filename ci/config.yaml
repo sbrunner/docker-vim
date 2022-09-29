@@ -13,6 +13,5 @@ publish:
     images:
       - name: sbrunner/vim
     repository:
-      github:
-        versions: []
+      github: {}
     dispatch: false

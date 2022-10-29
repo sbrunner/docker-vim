@@ -109,7 +109,7 @@ sbrunner/vim:latest:
   debian_11/tar: 1.34+dfsg-1
   debian_11/tcl8.6: 8.6.11+dfsg-1
   debian_11/tree: 1.8.0-1
-  debian_11/tzdata: 2021a-1+deb11u5
+  debian_11/tzdata: 2021a-1+deb11u7
   debian_11/util-linux: 2.36.1-8+deb11u1
   debian_11/vim: 8.2.2434-3+deb11u1
   debian_11/vim-addon-manager: 0.5.10

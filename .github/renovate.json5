@@ -46,5 +46,14 @@
       groupName: 'dpkg',
       automerge: true,
     },
+    /** Group Poetry packages */
+    {
+      matchPackageNames: ['poetry', 'pip'],
+      matchPackagePrefixes: ['poetry-'],
+      groupName: 'Poetry',
+      automerge: true,
+      separateMajorMinor: false,
+      separateMinorPatch: false,
+    },
   ],
 }

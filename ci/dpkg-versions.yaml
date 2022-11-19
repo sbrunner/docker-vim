@@ -41,7 +41,7 @@ sbrunner/vim:latest:
   debian_11/init-system-helpers: '1.60'
   debian_11/iputils: 20210202-1
   debian_11/keyutils: 1.6.1-2
-  debian_11/krb5: 1.18.3-6+deb11u2
+  debian_11/krb5: 1.18.3-6+deb11u3
   debian_11/libbsd: 0.11.3-1
   debian_11/libcap-ng: 0.7.9-2.2
   debian_11/libcap2: 2.44-1

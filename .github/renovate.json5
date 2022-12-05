@@ -1,13 +1,13 @@
 {
   extends: ['config:base'],
   timezone: 'Europe/Zurich',
-  schedule: 'after 1am on Saturday',
+  schedule: 'on the first day of the month',
   labels: ['dependencies'],
   separateMajorMinor: true,
   separateMinorPatch: true,
   prHourlyLimit: 0,
   prConcurrentLimit: 0,
-  lockFileMaintenance: { enabled: true, automerge: true },
+  lockFileMaintenance: { enabled: true, automerge: true, schedule: 'on the first day of the month' },
   semanticCommits: 'disabled',
   regexManagers: [
     {
@@ -38,11 +38,12 @@
       matchDatasources: ['repology'],
       groupName: 'OS packages',
       automerge: true,
+      schedule: 'after 1am every weekday',
     },
     /** Update dpkg versions every day */
     {
       matchPaths: ['^ci/dpkg-versions.yaml$'],
-      schedule: ['after 1am'],
+      schedule: ['after 1am every weekday'],
       groupName: 'dpkg',
       automerge: true,
     },

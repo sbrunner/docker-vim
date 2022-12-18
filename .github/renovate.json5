@@ -34,19 +34,25 @@
       groupName: 'all minor versions',
       automerge: true,
     },
-    {
-      matchDatasources: ['repology'],
-      groupName: 'OS packages',
-      automerge: true,
-      schedule: 'after 1am every weekday',
-    },
     /** Update dpkg versions every day */
     {
-      matchPaths: ['^ci/dpkg-versions.yaml$'],
-      schedule: ['after 1am every weekday'],
-      groupName: 'dpkg',
+      matchDatasources: ['repology'],
+      groupName: 'dpkg1',
+      automerge: true,
+      schedule: 'every weekday',
+    },
+    {
+      matchPaths: ['ci/dpkg-versions.yaml'],
+      schedule: ['every weekday'],
+      groupName: 'dpkg2',
       automerge: true,
     },
+    /*{
+      matchPackagePrefixes: ['debian_'],
+      schedule: ['every weekday'],
+      groupName: 'dpkg3',
+      automerge: true,
+    },*/
     /** Group Poetry packages */
     {
       matchPackageNames: ['poetry', 'pip'],

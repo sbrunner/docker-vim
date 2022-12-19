@@ -36,23 +36,11 @@
     },
     /** Update dpkg versions every day */
     {
-      matchDatasources: ['repology'],
-      groupName: 'dpkg1',
-      automerge: true,
-      schedule: 'every weekday',
-    },
-    {
       matchPaths: ['ci/dpkg-versions.yaml'],
       schedule: ['every weekday'],
-      groupName: 'dpkg2',
+      groupName: 'dpkg',
       automerge: true,
     },
-    /*{
-      matchPackagePrefixes: ['debian_'],
-      schedule: ['every weekday'],
-      groupName: 'dpkg3',
-      automerge: true,
-    },*/
     /** Group Poetry packages */
     {
       matchPackageNames: ['poetry', 'pip'],

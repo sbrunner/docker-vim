@@ -12,8 +12,8 @@
   'pre-commit': { enabled: true },
   regexManagers: [
     {
-      fileMatch: ['^.pre-commit-config.yaml'],
-      matchStrings: [" +- '?(?<depName>[^' @=]+)(@|==)(?<currentValue>[^' @=])'? # (?<datasource>.+)"],
+      fileMatch: ['^.pre-commit-config.yaml$'],
+      matchStrings: [" +- '?(?<depName>[^' @=]+)(@|==)(?<currentValue>[^' @=]+)'? # (?<datasource>.+)"],
     },
     {
       fileMatch: ['^ci/dpkg-versions.yaml$'],

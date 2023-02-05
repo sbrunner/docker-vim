@@ -2,6 +2,7 @@
 
 sbrunner/vim:latest:
   debian_11/lvm2: 2.03.11-2.1
+  debian_11/libmnl: 1.0.4-3build2
   debian_11/acl: 2.2.53-10
   debian_11/adduser: '3.118'
   debian_11/apt: 2.2.4

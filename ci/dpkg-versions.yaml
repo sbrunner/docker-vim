@@ -84,7 +84,7 @@ sbrunner/vim:latest:
   debian_11/nettle: 3.7.3-1
   debian_11/nghttp2: 1.43.0-1
   debian_11/openldap: 2.4.57+dfsg-3+deb11u1
-  debian_11/openssl: 1.1.1n-0+deb11u3
+  debian_11/openssl: 1.1.1n-0+deb11u4
   debian_11/p11-kit: 0.23.22-1
   debian_11/pam: 1.4.0-9+deb11u1
   debian_11/pcre2: 10.36-2+deb11u1

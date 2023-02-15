@@ -39,7 +39,7 @@ sbrunner/vim:latest:
   debian_11/glibc: 2.31-9
   debian_11/gmp: 6.2.1+dfsg-1+deb11u1
   debian_11/gnupg2: 2.2.27-2+deb11u2
-  debian_11/gnutls28: 3.7.1-5+deb11u2
+  debian_11/gnutls28: 3.7.1-5+deb11u3
   debian_11/gpm: 1.20.7-8
   debian_11/grep: 3.6-1
   debian_11/gzip: 1.10-4+deb11u1

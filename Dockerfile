@@ -7,7 +7,7 @@ RUN --mount=type=cache,target=/var/lib/apt/lists \
     && apt-get upgrade --yes \
     && apt-get install --yes --no-install-recommends \
         git net-tools iputils-ping screen vim vim-editorconfig vim-addon-manager tree python3-pip python-is-python3 \
-        cron fdupes docker.io \
+        cron fdupes docker.io procps less rsync \
     && pip install pipenv==2022.3.28 poetry
 
 RUN vim-addon-manager --system-wide install editorconfig \

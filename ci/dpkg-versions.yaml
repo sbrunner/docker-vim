@@ -132,3 +132,7 @@ sbrunner/vim:latest:
   debian_11/libnfnetlink: 1.0.1-3
   debian_11/libnftnl: 1.1.9-1
   debian_11/netbase: '6.3'
+  debian_11/less: 551-2
+  debian_11/popt: 1.18-2
+  debian_11/procps: 3.3.17-5
+  debian_11/rsync: 3.2.3-4+deb11u1

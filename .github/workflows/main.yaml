@@ -28,6 +28,8 @@ jobs:
       - run: pre-commit run --all-files
       - run: git diff && false
         if: failure()
+      - run: git diff && false
+        if: failure()
 
       - name: Checks
         run: c2cciutils-checks

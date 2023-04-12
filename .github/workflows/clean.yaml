@@ -17,8 +17,8 @@ jobs:
       - run: echo "${HOME}/.local/bin" >> ${GITHUB_PATH}
       - run: python3 -m pip install --user --requirement=ci/requirements.txt
 
-      - name: Clean
+      - name: Clean Docker hub tags
         run: c2cciutils-clean
         env:
-          DOCKERHUB_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+          DOCKERHUB_USERNAME: sbrunner
           DOCKERHUB_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}

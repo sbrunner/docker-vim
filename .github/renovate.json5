@@ -32,7 +32,7 @@
     },
     {
       fileMatch: ['^ci/config\\.yaml$'],
-      matchStrings: ['https://raw.githubusercontent.com/(?<depName>[\\s]+)/(?<currentValue>[0-9\\.]+)/'],
+      matchStrings: ['.*https://raw.githubusercontent.com/(?<depName>[\\s]+)/(?<currentValue>[0-9\\.]+)/.*'],
       datasourceTemplate: 'github-tags',
     },
   ],

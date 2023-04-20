@@ -5,6 +5,7 @@ on:
 
 env:
   DOCKER_BUILDKIT: '1'
+  HAS_SECRETS: ${{ secrets.HAS_SECRETS }}
 
 jobs:
   build:

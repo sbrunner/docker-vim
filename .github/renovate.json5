@@ -74,7 +74,7 @@
     /** Remove the prefix v on shellcheck-py package */
     {
       matchDatasources: ['pre-commit'],
-      matchPackageNames: ['shellcheck-py/shellcheck-py '],
+      matchPackageNames: ['shellcheck-py/shellcheck-py'],
       versioning: 'regex:^v(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)\\.(?<build>\\d+)$',
     },
   ],

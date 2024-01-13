@@ -48,7 +48,7 @@ sbrunner/vim:latest:
   debian_12/libcap2-bin: 1:2.66-4
   debian_12/libcom-err2: 1.47.0-2
   debian_12/libcrypt1: 1:4.4.33-2
-  debian_12/libcurl3-gnutls: 7.88.1-10+deb12u4
+  debian_12/libcurl3-gnutls: 7.88.1-10+deb12u5
   debian_12/libdb5.3: 5.3.28+dfsg2-1
   debian_12/libdebconfclient0: '0.270'
   debian_12/libdevmapper1.02.1: 2:1.02.185-2

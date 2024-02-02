@@ -41,8 +41,8 @@ sbrunner/vim:latest:
   debian_12/libbrotli1: 1.0.9-2+b6
   debian_12/libbsd0: 0.11.7-2
   debian_12/libbz2-1.0: 1.0.8-5+b1
-  debian_12/libc-bin: 2.36-9+deb12u3
-  debian_12/libc6: 2.36-9+deb12u3
+  debian_12/libc-bin: 2.36-9+deb12u4
+  debian_12/libc6: 2.36-9+deb12u4
   debian_12/libcap-ng0: 0.8.3-1+b3
   debian_12/libcap2: 1:2.66-4
   debian_12/libcap2-bin: 1:2.66-4

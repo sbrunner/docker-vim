@@ -174,7 +174,7 @@ sbrunner/vim:latest:
   debian_12/ruby-xmlrpc: 0.3.2-2
   debian_12/ruby3.1: 3.1.2-7
   debian_12/rubygems-integration: '1.18'
-  debian_12/runc: 1.1.5+ds1-1+b1
+  debian_12/runc: 1.1.5+ds1-1+deb12u1
   debian_12/screen: 4.9.0-4
   debian_12/sed: 4.9-1
   debian_12/sensible-utils: 0.0.17+nmu1

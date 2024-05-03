@@ -31,7 +31,7 @@ sbrunner/vim:latest:
   debian_12/init-system-helpers: 1.65.2
   debian_12/iptables: 1.8.9-2
   debian_12/iputils-ping: 3:20221126-1
-  debian_12/less: 590-2
+  debian_12/less: 590-2.1~deb12u2
   debian_12/libacl1: 2.3.1-3
   debian_12/libapt-pkg6.0: 2.6.1
   debian_12/libattr1: 1:2.5.1-4
@@ -41,8 +41,8 @@ sbrunner/vim:latest:
   debian_12/libbrotli1: 1.0.9-2+b6
   debian_12/libbsd0: 0.11.7-2
   debian_12/libbz2-1.0: 1.0.8-5+b1
-  debian_12/libc-bin: 2.36-9+deb12u6
-  debian_12/libc6: 2.36-9+deb12u6
+  debian_12/libc-bin: 2.36-9+deb12u7
+  debian_12/libc6: 2.36-9+deb12u7
   debian_12/libcap-ng0: 0.8.3-1+b3
   debian_12/libcap2: 1:2.66-4
   debian_12/libcap2-bin: 1:2.66-4
@@ -108,7 +108,7 @@ sbrunner/vim:latest:
   debian_12/libreadline8: 8.2-1.3
   debian_12/librtmp1: 2.4+20151223.gitfa8646d.1-2+b2
   debian_12/libruby: '1:3.1'
-  debian_12/libruby3.1: 3.1.2-7
+  debian_12/libruby3.1: 3.1.2-7+deb12u1
   debian_12/libsasl2-2: 2.1.28+dfsg-10
   debian_12/libsasl2-modules-db: 2.1.28+dfsg-10
   debian_12/libseccomp2: 2.5.4-1+b3
@@ -172,7 +172,7 @@ sbrunner/vim:latest:
   debian_12/ruby-sdbm: 1.0.0-5+b1
   debian_12/ruby-webrick: 1.8.1-1
   debian_12/ruby-xmlrpc: 0.3.2-2
-  debian_12/ruby3.1: 3.1.2-7
+  debian_12/ruby3.1: 3.1.2-7+deb12u1
   debian_12/rubygems-integration: '1.18'
   debian_12/runc: 1.1.5+ds1-1+deb12u1
   debian_12/screen: 4.9.0-4

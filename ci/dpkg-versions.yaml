@@ -55,7 +55,7 @@ sbrunner/vim:latest:
   debian_12/libedit2: 3.1-20221030-2
   debian_12/libeditorconfig0: 0.12.6-0.1
   debian_12/liberror-perl: 0.17029-2
-  debian_12/libexpat1: 2.5.0-1
+  debian_12/libexpat1: 2.5.0-1+deb12u1
   debian_12/libext2fs2: 1.47.0-2
   debian_12/libffi8: 3.4.4-1
   debian_12/libgcc-s1: 12.2.0-14

@@ -52,13 +52,6 @@
       groupName: 'all minor versions',
       automerge: true,
     },
-    /** Update dpkg versions at any time */
-    {
-      matchPaths: ['ci/dpkg-versions.yaml'],
-      schedule: ['at any time'],
-      groupName: 'dpkg',
-      automerge: true,
-    },
     /** Group Poetry packages */
     {
       matchPackagePrefixes: ['poetry-'],

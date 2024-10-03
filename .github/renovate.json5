@@ -38,7 +38,6 @@
       fileMatch: ['^\\.github/workflows/.*\\.yaml$'],
       matchStrings: ["^ +python-version: '(?<currentValue>[0-9\\.]+)'$"],
       datasourceTemplate: 'python-version',
-      versioningTemplate: 'python',
       depNameTemplate: 'python',
     },
   ],

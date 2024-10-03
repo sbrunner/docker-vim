@@ -33,6 +33,14 @@
       ],
       datasourceTemplate: 'github-tags',
     },
+    /** Python version in actions/setup-python action */
+    {
+      fileMatch: ['^.github/workflow/\\.yaml$'],
+      matchStrings: ["^ +python-version: '(?<currentValue>[0-9\\.]+)'$"],
+      datasourceTemplate: 'python-version',
+      versioningTemplate: 'python',
+      depNameTemplate: 'python',
+    },
   ],
   packageRules: [
     /** Auto merge the dev dependency update */

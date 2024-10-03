@@ -79,5 +79,10 @@
       groupName: 'CI dependencies',
       automerge: true,
     },
+    /** Ungroup Python dependencies */
+    {
+      matchDepNames: ['python'],
+      groupName: 'Python',
+    },
   ],
 }

@@ -35,7 +35,7 @@
     },
     /** Python version in actions/setup-python action */
     {
-      fileMatch: ['^.github/workflow/\\.yaml$'],
+      fileMatch: ['^.github/workflows/\\.yaml$'],
       matchStrings: ["^ +python-version: '(?<currentValue>[0-9\\.]+)'$"],
       datasourceTemplate: 'python-version',
       versioningTemplate: 'python',

@@ -83,6 +83,7 @@
     {
       matchDepNames: ['python'],
       groupName: 'Python',
+      versioning: 'regex:^(?<major>\\d+)\\.(?<minor>\\d+)$',
     },
   ],
 }

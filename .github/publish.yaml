@@ -3,23 +3,5 @@
 docker:
   images:
     - name: sbrunner/vim
-print_versions:
-  versions:
-    - name: c2cciutils
-      cmd:
-        - c2cciutils
-        - --version
-    - name: python
-      cmd:
-        - python3
-        - --version
-    - name: twine
-      cmd:
-        - twine
-        - --version
-    - name: docker
-      cmd:
-        - docker
-        - --version
 dispatch:
   - {}

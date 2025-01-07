@@ -59,3 +59,8 @@ repos:
     rev: 39.86.3
     hooks:
       - id: renovate-config-validator
+  - repo: https://github.com/sbrunner/jsonschema-validator
+    rev: 0.3.2
+    hooks:
+      - id: jsonschema-validator
+        files: ^\.github/publish\.yaml$

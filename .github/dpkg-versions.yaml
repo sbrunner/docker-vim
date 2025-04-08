@@ -78,7 +78,7 @@ sbrunner/vim:latest:
   debian_12/libldap-2.5-0: 2.5.13+dfsg-5
   debian_12/liblua5.2-0: 5.2.4-3
   debian_12/liblz4-1: 1.9.4-1
-  debian_12/liblzma5: 5.4.1-0.2
+  debian_12/liblzma5: 5.4.1-1
   debian_12/libmd0: 1.0.4-2
   debian_12/libmnl0: 1.0.4-3
   debian_12/libmount1: 2.38.1-5+deb12u3

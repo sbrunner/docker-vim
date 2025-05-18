@@ -144,7 +144,7 @@ sbrunner/vim:latest:
   debian_12/mount: 2.38.1-5+deb12u3
   debian_12/ncurses-base: 6.4-4
   debian_12/ncurses-bin: 6.4-4
-  debian_12/net-tools: 2.10-0.1
+  debian_12/net-tools: 2.10-0.1+deb12u1
   debian_12/netbase: '6.4'
   debian_12/openssl: 3.0.16-1~deb12u1
   debian_12/passwd: 1:4.13+dfsg1-1+deb12u1

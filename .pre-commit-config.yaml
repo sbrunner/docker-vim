@@ -65,3 +65,11 @@ repos:
     hooks:
       - id: jsonschema-validator
         files: ^\.github/publish\.yaml$
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.9.9
+    hooks:
+      - id: ruff-format
+  - repo: https://github.com/sbrunner/python-versions-hook
+    rev: 0.8.0
+    hooks:
+      - id: python-versions

@@ -63,7 +63,7 @@ sbrunner/vim:latest:
   debian_12/libgdbm-compat4: 1.23-3
   debian_12/libgdbm6: 1.23-3
   debian_12/libgmp10: 2:6.2.1+dfsg1-1.1
-  debian_12/libgnutls30: 3.7.9-2+deb12u4
+  debian_12/libgnutls30: 3.7.9-2+deb12u5
   debian_12/libgpg-error0: 1.46-1
   debian_12/libgpm2: 1.20.7-10+b1
   debian_12/libgssapi-krb5-2: 1.20.1-2+deb12u3

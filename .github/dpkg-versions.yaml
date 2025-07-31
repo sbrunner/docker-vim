@@ -121,7 +121,7 @@ sbrunner/vim:latest:
   debian_12/libsqlite3-0: 3.40.1-2+deb12u1
   debian_12/libss2: 1.47.0-2
   debian_12/libssh2-1: 1.10.0-3+b1
-  debian_12/libssl3: 3.0.16-1~deb12u1
+  debian_12/libssl3: 3.0.17-1~deb12u1
   debian_12/libstdc++6: 12.2.0-14+deb12u1
   debian_12/libsystemd0: 252.38-1~deb12u1
   debian_12/libtasn1-6: 4.19.0-2+deb12u1
@@ -146,7 +146,7 @@ sbrunner/vim:latest:
   debian_12/ncurses-bin: 6.4-4
   debian_12/net-tools: 2.10-0.1+deb12u2
   debian_12/netbase: '6.4'
-  debian_12/openssl: 3.0.16-1~deb12u1
+  debian_12/openssl: 3.0.17-1~deb12u1
   debian_12/passwd: 1:4.13+dfsg1-1+deb12u1
   debian_12/perl: 5.36.0-7+deb12u2
   debian_12/perl-base: 5.36.0-7+deb12u2

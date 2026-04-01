@@ -1,4 +1,4 @@
-FROM debian:13.3
+FROM debian:13.4
 
 RUN --mount=type=cache,target=/var/lib/apt/lists \
     --mount=type=cache,target=/var/cache,sharing=locked \

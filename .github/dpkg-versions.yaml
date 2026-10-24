@@ -4,7 +4,7 @@ sbrunner/vim:latest:
   debian_13/base-passwd: 3.6.7
   debian_13/bash: 5.2.37-2+b10
   debian_13/bsdutils: 1:2.41.5-0+deb13u1
-  debian_13/ca-certificates: '20250419'
+  debian_13/ca-certificates: 20250419+deb13u1
   debian_13/containerd: 1.7.24~ds1-6+deb13u1
   debian_13/coreutils: 9.7-3
   debian_13/cron: 3.0pl1-197
@@ -35,7 +35,7 @@ sbrunner/vim:latest:
   debian_13/libaudit-common: 1:4.0.2-2+deb13u1
   debian_13/libaudit1: 1:4.0.2-2+deb13u1
   debian_13/libblkid1: 2.41.5-0+deb13u1
-  debian_13/libbrotli1: 1.1.0-2+b7
+  debian_13/libbrotli1: 1.1.0-2+deb13u1
   debian_13/libbsd0: 0.12.2-2
   debian_13/libbz2-1.0: 1.0.8-6
   debian_13/libc-bin: 2.41-12+deb13u4
@@ -44,11 +44,11 @@ sbrunner/vim:latest:
   debian_13/libcap2: 1:2.75-10+deb13u1+b3
   debian_13/libcom-err2: 1.47.2-3+b12
   debian_13/libcrypt1: 1:4.4.38-1
-  debian_13/libcurl3t64-gnutls: 8.14.1-2+deb13u5
+  debian_13/libcurl3t64-gnutls: 8.14.1-2+deb13u7
   debian_13/libdb5.3t64: 5.3.28+dfsg2-9
   debian_13/libdebconfclient0: '0.280'
   debian_13/liberror-perl: 0.17030-1
-  debian_13/libexpat1: 2.8.3-1~deb13u1
+  debian_13/libexpat1: 2.9.0-1~deb13u1
   debian_13/libffi8: 3.4.8-2
   debian_13/libgcc-s1: 14.2.0-19
   debian_13/libgdbm-compat4t64: 1.24-2
@@ -68,7 +68,7 @@ sbrunner/vim:latest:
   debian_13/liblastlog2-2: 2.41.5-0+deb13u1
   debian_13/libldap2: 2.6.10+dfsg-1
   debian_13/liblz4-1: 1.10.0-4
-  debian_13/liblzma5: 5.8.1-1+deb13u1
+  debian_13/liblzma5: 5.8.1-1+deb13u2
   debian_13/libmd0: 1.1.0-2+b1
   debian_13/libmnl0: 1.0.5-3
   debian_13/libmount1: 2.41.5-0+deb13u1

@@ -162,6 +162,6 @@ sbrunner/vim:latest:
   debian_13/tree: 2.2.1-1
   debian_13/tzdata: 2026c-0+deb13u1
   debian_13/util-linux: 2.41.5-0+deb13u1
-  debian_13/vim: 2:9.1.1230-2+deb13u1
-  debian_13/vim-common: 2:9.1.1230-2+deb13u1
-  debian_13/vim-runtime: 2:9.1.1230-2+deb13u1
+  debian_13/vim: 2:9.1.1230-2+deb13u2
+  debian_13/vim-common: 2:9.1.1230-2+deb13u2
+  debian_13/vim-runtime: 2:9.1.1230-2+deb13u2

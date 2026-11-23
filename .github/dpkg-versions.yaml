@@ -56,15 +56,15 @@ sbrunner/vim:latest:
   debian_13/libgmp10: 2:6.3.0+dfsg-3
   debian_13/libgnutls30t64: 3.8.9-3+deb13u4
   debian_13/libgpm2: 1.20.7-11+b2
-  debian_13/libgssapi-krb5-2: 1.21.3-5+deb13u1
+  debian_13/libgssapi-krb5-2: 1.21.3-5+deb13u2
   debian_13/libhogweed6t64: 3.10.1-1
   debian_13/libidn2-0: 2.3.8-2
   debian_13/libip4tc2: 1.8.11-2
   debian_13/libip6tc2: 1.8.11-2
-  debian_13/libk5crypto3: 1.21.3-5+deb13u1
+  debian_13/libk5crypto3: 1.21.3-5+deb13u2
   debian_13/libkeyutils1: 1.6.3-6
-  debian_13/libkrb5-3: 1.21.3-5+deb13u1
-  debian_13/libkrb5support0: 1.21.3-5+deb13u1
+  debian_13/libkrb5-3: 1.21.3-5+deb13u2
+  debian_13/libkrb5support0: 1.21.3-5+deb13u2
   debian_13/liblastlog2-2: 2.41.5-0+deb13u1
   debian_13/libldap2: 2.6.10+dfsg-1
   debian_13/liblz4-1: 1.10.0-4

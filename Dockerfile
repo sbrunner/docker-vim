@@ -6,11 +6,11 @@ RUN --mount=type=cache,target=/var/lib/apt/lists \
     apt-get update \
     && apt-get upgrade --yes \
     && apt-get install --yes --no-install-recommends \
-        git net-tools iputils-ping screen vim tree python3-pip python3-venv python-is-python3 \
-        cron fdupes docker.io procps less rsync procps \
+        cron docker.io fdupes git iputils-ping less net-tools procps python-is-python3 \
+        python3-pip python3-venv rsync screen tree vim \
     && python3 -m venv /opt/venv \
-    && /opt/venv/bin/pip install --upgrade pip \
-    && /opt/venv/bin/pip install pipenv==2022.3.28 poetry
+    && /opt/venv/bin/pip install '--only-binary=:all:' --upgrade pip \
+    && /opt/venv/bin/pip install '--only-binary=:all:' pipenv==2022.3.28 poetry==2.5.1
 
 RUN echo 'set hlsearch  " Highlight search' > /root/.vimrc \
     && echo 'set wildmode=list:longest  " Completion menu' >> /root/.vimrc \
